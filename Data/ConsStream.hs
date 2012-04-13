@@ -6,7 +6,7 @@
 
 ----------------------------------------------------------------------
 -- |
--- Module      :  Data.ReStream
+-- Module      :  Data.ConsStream
 -- 
 -- Maintainer  :  conal@conal.net
 -- Stability   :  experimental
@@ -14,6 +14,6 @@
 -- Re-export Wouter Swierstra's Stream package, avoiding module name clash.
 ----------------------------------------------------------------------
 
-module Data.ReStream (module Data.Stream) where
+module Data.ConsStream (module Data.Stream) where
 
 import Data.Stream
