@@ -1,0 +1,23 @@
+Name:                ReStream
+Version:             0.1
+Synopsis:            Re-export Wouter Swierstra's Stream package, avoiding module name clash.
+Homepage:            github
+License:             BSD3
+License-file:        LICENSE
+Author:              Conal Elliott
+Maintainer:          conal@conal.net
+Category:            Data
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Library
+  Exposed-modules:     Data.ReStream
+  
+  Build-depends:       base < 5, Stream
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:         
+  
