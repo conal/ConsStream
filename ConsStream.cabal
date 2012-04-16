@@ -1,6 +1,7 @@
 Name:                ConsStream
 Version:             0.1
-Synopsis:            Re-export Wouter Swierstra's Stream package, avoiding module name clash.
+Synopsis:            Trivial re-export of Wouter Swierstra's Stream package,
+                     avoiding module name clash.
 Homepage:            github
 License:             BSD3
 License-file:        LICENSE
@@ -14,10 +15,3 @@ Library
   Exposed-modules:     Data.ConsStream
   
   Build-depends:       base < 5, Stream
-  
-  -- Modules not exported by this package.
-  -- Other-modules:       
-  
-  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
-  -- Build-tools:         
-  
